@@ -1,0 +1,80 @@
+{
+ "tls12": {
+  "alpn": "h2",
+  "cipher": "ECDHE-RSA-AES256-GCM-SHA384",
+  "flights": [
+   {
+    "bytes": 209,
+    "first_record_type": 22,
+    "from": "c"
+   },
+   {
+    "bytes": 1244,
+    "first_record_type": 22,
+    "from": "s"
+   },
+   {
+    "bytes": 93,
+    "first_record_type": 22,
+    "from": "c"
+   },
+   {
+    "bytes": 242,
+    "first_record_type": 22,
+    "from": "s"
+   },
+   {
+    "bytes": 49,
+    "first_record_type": 23,
+    "from": "c"
+   },
+   {
+    "bytes": 33,
+    "first_record_type": 23,
+    "from": "s"
+   }
+  ],
+  "packets": 12,
+  "sni": "fixture.example.test",
+  "version": "TLSv1.2"
+ },
+ "tls13": {
+  "alpn": "h2",
+  "cipher": "TLS_AES_256_GCM_SHA384",
+  "flights": [
+   {
+    "bytes": 517,
+    "first_record_type": 22,
+    "from": "c"
+   },
+   {
+    "bytes": 1401,
+    "first_record_type": 22,
+    "from": "s"
+   },
+   {
+    "bytes": 80,
+    "first_record_type": 20,
+    "from": "c"
+   },
+   {
+    "bytes": 510,
+    "first_record_type": 23,
+    "from": "s"
+   },
+   {
+    "bytes": 42,
+    "first_record_type": 23,
+    "from": "c"
+   },
+   {
+    "bytes": 26,
+    "first_record_type": 23,
+    "from": "s"
+   }
+  ],
+  "packets": 13,
+  "sni": "fixture.example.test",
+  "version": "TLSv1.3"
+ }
+}

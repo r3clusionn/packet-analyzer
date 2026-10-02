@@ -1,0 +1,10 @@
+{
+ "body": "<html>hello from the fixture server</html>",
+ "content_length": 42,
+ "content_type": "text/html; charset=utf-8",
+ "host": "fixture.example.test",
+ "path": "/fixture/page.html?x=1",
+ "request_bytes": 126,
+ "response_bytes": 138,
+ "status": 200
+}
